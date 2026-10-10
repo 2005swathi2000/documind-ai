@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./storage/documind.db
+      - FAISS_INDEX_DIR=./storage/vector_store
+      - UPLOAD_DIR=./storage/uploads
+    volumes:
+      - documind_storage:/app/storage
+
+volumes:
+  documind_storage:

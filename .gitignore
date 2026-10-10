@@ -1,0 +1,27 @@
+# Virtual Environments & Python Cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Application Storage & Sensitive Files
+.env
+storage/
+*.db
+*.bin
+*.csv
+backend/storage/
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

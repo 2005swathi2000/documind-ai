@@ -1,0 +1,32 @@
+[
+  {
+    "query_id": "q1",
+    "question": "What is the primary goal of the proposed framework?",
+    "expected_pages": [1, 2],
+    "is_supported": true
+  },
+  {
+    "query_id": "q2",
+    "question": "What extraction libraries are used for digital text and tables?",
+    "expected_pages": [2, 3],
+    "is_supported": true
+  },
+  {
+    "query_id": "q3",
+    "question": "What vector database index algorithm is configured for cosine search?",
+    "expected_pages": [3, 4],
+    "is_supported": true
+  },
+  {
+    "query_id": "q4",
+    "question": "What is the quantum computing qubit coherence duration mentioned in chapter 9?",
+    "expected_pages": [],
+    "is_supported": false
+  },
+  {
+    "query_id": "q5",
+    "question": "How does Reciprocal Rank Fusion combine keyword and vector rankings?",
+    "expected_pages": [4, 5],
+    "is_supported": true
+  }
+]
